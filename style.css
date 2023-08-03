@@ -1,0 +1,30 @@
+.top1{
+    background-color: #b0c7ff;
+    text-align: center;
+}
+
+.block1 {
+    background-color: #5c7fff;
+    border-radius: 7%;
+    width: 5.5%;
+}
+
+.block2 {
+    background-color: #f15cff;
+    border-radius: 7%;
+    width: 5.5%;
+}
+
+.tables {
+    /* background-color: black; */
+    border: 1px;
+    border-style: solid;
+}
+
+.name {
+    background-color: white;
+}
+
+.allof{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
