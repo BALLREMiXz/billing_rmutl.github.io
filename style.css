@@ -1,30 +1,41 @@
-.top1{
+.top1 {
     background-color: #b0c7ff;
     text-align: center;
 }
 
-.block1 {
+.block1,
+.block2 {
     background-color: #5c7fff;
     border-radius: 7%;
     width: 5.5%;
-}
-
-.block2 {
-    background-color: #f15cff;
-    border-radius: 7%;
-    width: 5.5%;
+    margin: 1%;
 }
 
 .tables {
     /* background-color: black; */
     border: 1px;
     border-style: solid;
+    margin: 2%;
+    padding: 1%;
 }
 
 .name {
     background-color: white;
 }
 
-.allof{
+.allof {
     font-family: 'Noto Sans Thai', sans-serif;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .block1,
+    .block2 {
+        width: 20%; /* Adjust as needed */
+        margin: 2%;
+    }
+
+    .tables {
+        margin: 4%;
+    }
 }
